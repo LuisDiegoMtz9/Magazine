@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Documento sin título</title>
+		<link rel="stylesheet" href="LogCss.css">
+		<script src="jscrips.js"></script>
+	</head>
+
+	<body>
+		<div class="loginIni"> 
+			<a class="us">Usuario Loggeado:</a> 
+			<a id="login">------</a> 
+		</div>
+		
+		<div class="cont">
+			<label id="lblvis">Visitas del sitio -> &nbsp;</label>
+			<label id="visitas">---</label>
+		</div>
+		
+		<header>
+			<h1>Chompi-Magatzine</h1>
+		</header>
+		
+	<div class="divForm">
+			<div class="cajaLog">
+				<h1>Loggin de usuario</h1>
+				<img src="user.png">
+				<label>Ingrese nombre de usuario</label>
+				<input type="text" placeholder="Usuario" align="middle" autofocus id="txtUser">
+				<label>Ingrese contraseña</label>
+				<input type="password" placeholder="Contraseña" align="middle" id="txtContra">
+				<div class="divEsp"></div>
+				<input type="button" onClick="login()" value="Ingresar" id="btnIng">
+				<label id="lblReg">¿Aun no esta registrado?</label>
+				<a href="Registro.html">Registrarse</a>
+			</div>
+		</div>
+	</body>
+</html>

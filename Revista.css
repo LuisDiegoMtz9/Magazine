@@ -1,0 +1,1126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.RevistaQ{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+
+.imgRevistaQ{
+    float: left;
+    padding: 20px;
+}
+
+
+.descripccioningredientes{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+
+.descRevistaQ h2 {
+    color: white;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+
+.descRevistaQ p {
+    color: #fff;
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+
+.TvNotas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+
+.imgTvNotas{
+    float: left;
+    padding: 20px;
+	width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+
+.descTVnotas h2 {
+    color: white;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+
+.descTVnotasp {
+    color: #fff;
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+
+.Hola{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+
+.imagHola{
+    float: left;
+    padding: 20px;
+}
+
+
+.descripccionpicni{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+
+.desHola h2 {
+    color: white;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+
+.desHola p {
+    color: #fff;
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+
+.Ingredientes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+
+.imageningredientes{
+    float: left;
+    padding: 20px;
+}
+
+.descripccioningredientes{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+.descripccioningredientes h2 {
+	font-family: laPhiesta;
+    color: white;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+
+
+.descripccioningredientes p {
+    color: #fff;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+
+
+.Invierno{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+
+
+.imageninvierno{
+    float: left;
+    padding: 20px;
+}
+
+.descripccioninvierno{
+    width: 70%;
+	text-align: center;
+    margin: auto;
+}
+
+
+
+.descripccioninvierno h2 {
+    color: white;
+	font-family: laPhiesta;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+
+
+.descripccioninvierno p {
+    color: #fff;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+
+
+.Picni{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+
+
+.imagenpicni{
+    float: left;
+    padding: 20px;
+}
+
+.descripccionpicni{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+.descripccionpicni h2 {
+    color: white;
+	font-family: laPhiesta;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+
+
+.descripccionpicni p {
+    color: #fff;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.Saludable{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+
+
+.imagensaludable{
+    float: left;
+    padding: 20px;
+}
+
+.descripccionsaludable{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+.descripccionsaludable h2 {
+    color: white;
+	font-family: laPhiesta;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+
+
+.descripccionsaludable p {
+    color: #fff;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+
+nav {
+    height: 60px;
+	width: 80%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 15px;
+    transition: .3s;
+    display: inline-block;
+	font-family: laPhiesta;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+nav a:hover {
+	border-radius: 18px;
+    letter-spacing: 5px;
+    background-color: black;
+	text-shadow: 0px 0px 35px #35EF00,0px 0px 35px #35EF00,0px 0px 35px #35EF00;
+	font-family: laPhiesta;
+	font-size: 40px;
+	padding: 7px;
+	border-style: ridge;
+	border-width: 6px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	animation-name: tit;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: pointer;
+}
+header{
+    background-color: black;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+	padding-bottom: 40px;
+	
+}
+
+.main{
+    background-color: black;
+    width: 70%;
+    display: flex;
+    float: left;
+    height: 100%;
+}
+.maincocina{
+    background-color: black;
+    width: 70%;
+    display: flex;
+    float: left;
+    height: 800px;
+}
+.maindeportes{
+    background-color: black;
+    width: 70%;
+    display: flex;
+    float: left;
+    height: 800px;
+}
+.contenido{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.contenido h1{
+	font-family: laPhiesta; 
+	color: white; 
+	letter-spacing: 5px;
+	font-size: 60px; 
+	border-bottom: solid; 
+	width: 95%; 
+	text-align: center;
+	padding-bottom: 10px;
+	border-color: white;
+	animation-duration: 8s;
+	animation-name: let;
+	animation-iteration-count: infinite;
+}
+
+
+.videojuegos{
+    display: flex;
+    justify-content: center;
+	flex-direction: column;
+    /*flex-wrap: wrap;*/
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.imagenjuegos{
+    float: left;
+    padding: 20px;
+}
+
+.imagenjuegos img{
+	border-radius: 15px;
+	box-shadow: 0px 0px 20px 3px #29B900, 0 0 40px 3px #29B900;
+}
+
+.descripccionjuegos{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+	font-size: 30px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+.descripccionjuegos p{
+	font-size: 20px;
+	color: white;
+}
+
+.descripccionjuegos h2 {
+    color: white;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    padding-bottom: 10px;
+	font-family: LaPhiesta;
+	font-size: 40px;
+	letter-spacing: 7px;
+}
+
+.cocina{
+
+    width: 100%;
+}
+.imagencocina{
+    float: left;
+    padding: 20px;
+}
+.descripccioncocina{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+.deportes{
+  
+width: 100%;
+  
+}
+.imagendeportes{
+    float: left;
+    padding: 20px;
+}
+.descripcciondeportes{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+.espectaculos{
+
+    width: 100%;
+    
+}
+.imagenespectaculos{
+    float: left;
+    padding: 20px;
+}
+.descripccionespectaculos{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+.dias{
+	padding-top: 70px;
+}
+
+aside{
+    width: 30%;
+    background-color: black;
+    height: 500px;
+    display: flex;
+    float: right;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 12px;
+	box-shadow: 0px 0px 5px 4px #29B900;
+}
+.asidejuegos{
+    width: 30%;
+    background-color: black;
+    height: 580px;
+    display: flex;
+    float: right;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 12px;
+	box-shadow: 0px 0px 5px 4px #29B900;
+}
+footer {
+    background: #0063f7;
+    padding:10px;
+    margin: auto;
+    overflow: hidden;
+    width: 100%;
+	animation-name: fondo;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+}
+.contenedor-footer {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+.contenedor-footer h4 {
+    color: #fff;
+    border-bottom: 3px solid #ff834e;
+    padding-bottom: 5px;
+    margin-bottom: 3px;
+}
+.contenedor-footer p {
+    color: #fff;
+}
+
+footer h2 {
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+
+header h1{
+	border-style: ridge;
+	animation-name: tit;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	border-radius: 50px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 10px;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	width: 680px;
+	height: 100px;
+	font-family: laPhiesta;
+	font-size: 90px;
+	color: white;
+	letter-spacing: 5px;
+}
+
+.btnIni{
+	display: flex;
+	color: white;
+	padding: 1px;
+	width:inherit;
+	height: 10px;
+	font-family: laPhiesta;
+	font-size: 40px;
+	padding-left: 80%;
+}
+
+.btnIni a{
+	color: white;
+	padding-top: 20px;
+	letter-spacing: 2px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.btnIni a:hover{
+	animation-name: tit;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	text-shadow: 0px 0px 35px red,0px 0px 35px red;
+	/*#29B900*/
+}
+
+.loginIni{
+	display: flex;
+	color: white;
+	width:inherit;
+	height: 10px;
+	font-family: laPhiesta;
+	font-size: 40px;
+	flex-direction: column;
+	color: #29b900;
+	padding-left: 1%;
+	padding: 15px;
+}
+
+.us{
+    color: #29b900;
+}
+
+.loginIni a{
+	padding-top: 25px;
+	padding-left: 2%;
+	letter-spacing: 2px;
+}
+
+
+
+#login{
+	padding-left: 5%;
+	font-size: 40px;
+	padding-top: 5px;
+	text-shadow: 0 0 10px red, 0 0 20px red, 0 0 40px red;
+	color: white;
+}
+
+.cont{
+	color: white;
+	width: 100%;
+	display: flex;
+	height: 35px;
+	padding-left: 75%;
+	font-family: LaPhiesta;
+	font-size: 39px;
+	color: #29B900;
+	padding-top: 40px;
+	padding-bottom: 0px;
+}
+
+.cont #visitas{
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 38px;
+}
+
+.ventEst{
+	background-color: black;
+	width: 1050px;
+	height: 480px;
+	text-align: center;
+	padding: 20px;
+	border-radius: 20px;
+	color: white;
+	box-shadow: 0 0 10px red, 0 0 20px red, 0 0 40px red, 0 0 80px red;
+	position: relative;
+}
+
+.ventEst h1{
+	font-family: LaPhiesta;
+	font-size: 75px;
+	text-shadow: 0 0 10px red, 0 0 20px red, 0 0 40px red;
+	padding-bottom: 30px;
+}
+
+.newLan{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 70px;
+	border-radius: 15px;
+	border-color: red;
+	border-style: solid;
+	border-width: 1px;
+	margin-bottom: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	vertical-align: middle;
+}
+
+.newLan h2{
+	font-family: LaPhiesta;
+	padding-right: 20px;
+	font-size: 40px;
+	text-shadow: 0 0 10px red, 0 0 20px red, 0 0 40px red;
+	width: 170px;
+}
+
+.newLan p{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	padding-right: 20px;
+	font-size: 15px;
+	display: flex;
+	vertical-align: middle;
+	width: 300px;
+}
+
+.newLan input{
+	display: flex;
+	padding-left: 15px;
+	background-color: black;
+	color: white;
+	padding-right: 15px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 15px;
+	border: ridge;
+	border-radius: 30px;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	border-width: 3px;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-color: red;
+}
+
+.newLan input:hover{
+	transition: .3s;
+	color: red;
+	background-color: white;
+	cursor: pointer;
+}
+
+.prDiv{
+	background: rgba(105,105,105,0.5);
+	width: 100vw;
+	height: 100vh;
+	z-index: 10;
+	display: none;
+	justify-content: center;
+	align-content: center;
+	position: fixed;
+	padding-top: 13%;
+}
+
+.newLan label{
+	padding-left: 15px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 19px;
+}
+
+.lblNum{
+	width: 30px;
+}
+
+.btnClosePop{
+	background-color: black;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 60px;
+	height: 40px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	border-style: double;
+	border-color: red;
+	border-width: 5px;
+}
+
+.btnClosePop:hover{
+	background-color: red;
+	color: black;
+	font: bolder;
+	font-size: 18px;
+	transition: .2s;
+	border-color: black;
+	cursor: pointer;
+}
+
+.divRev{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+	margin-top: 50px;
+	width: 69%;
+    height: 92%;
+    background-color: gray;
+}
+
+.divRev h2{
+	font-family: laphiesta;
+    font-size: 45px;
+	letter-spacing: 3px;
+	text-align: center;
+}
+
+.divRev h1{
+    font-family: laphiesta;
+	font-size: 60px;
+    letter-spacing: 3px;
+	padding-bottom: 40px;
+	padding-top: 30px;
+	text-shadow: 0 0 10px #29B900, 0 0 20px #29B900, 0 0 40px #29B900;
+}
+
+
+.divInfo{
+	display: flex;
+    flex-direction: row;
+	padding: 15px;
+	justify-content: center;
+	align-items: center;
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+	width: 95%;
+}
+
+.divInfo p{
+	width: 600px;
+	padding-left: 20px;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.divInfo a{
+    font-family: laphiesta;
+	color: black;
+	font-size: 40px;
+	text-decoration: none;
+	padding-left: 15px;
+}
+
+@font-face{
+	font-family: laPhiesta;
+	src: url("mexican fiesta.ttf");
+}
+
+@keyframes tit{
+	0%{
+		border-color: #FF0003;
+	}
+	
+	10%{
+		border-color: #E400FF;
+	}
+	
+	20%{
+		border-color: #8000FF;
+	}
+	
+	30%{
+		border-color: #000BFF;
+	}
+	
+	40%{
+		border-color: #00B3FF;
+	}
+	
+	50%{
+		border-color: #00F3FF;
+	}
+	
+	60%{
+		border-color: #00FF85;
+	}
+	
+	70%{
+		border-color: #22FF00;
+	}
+	
+	80%{
+		border-color: #FFFC00;
+	}
+	
+	90%{
+		border-color: #FF8B00;
+	}
+	
+	100%{
+		border-color: #FF0000;
+	}
+	
+}
+
+@keyframes let{
+	0%{
+		color: #FFF;
+	}
+	
+	10%{
+		color: #E400FF;
+	}
+	
+	20%{
+		color: #8000FF;
+	}
+	
+	30%{
+		color: #000BFF;
+	}
+	
+	40%{
+		color: #00B3FF;
+	}
+	
+	50%{
+		color: #00F3FF;
+	}
+	
+	60%{
+		color: #00FF85;
+	}
+	
+	70%{
+		color: #22FF00;
+	}
+	
+	80%{
+		color: #FFFC00;
+	}
+	
+	90%{
+		color: #FF8B00;
+	}
+	
+	100%{
+		color: #FFF;
+	}
+}
+
+@keyframes fondo{
+	0%{
+		background-color: #FFF;
+	}
+	
+	10%{
+		background-color: #E400FF;
+	}
+	
+	20%{
+		background-color: #8000FF;
+	}
+	
+	30%{
+		background-color: #000BFF;
+	}
+	
+	40%{
+		background-color: #00B3FF;
+	}
+	
+	50%{
+		background-color: #00F3FF;
+	}
+	
+	60%{
+		background-color: #00FF85;
+	}
+	
+	70%{
+		background-color: #22FF00;
+	}
+	
+	80%{
+		background-color: #FFFC00;
+	}
+	
+	90%{
+		background-color: #FF8B00;
+	}
+	
+	100%{
+		background-color: #FFF;
+	}
+}
+
+
+
+/*------PARTE CSS RIOS------*/
+
+
+
+.camisa {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	margin: auto;
+	width: 100%;
+}
+
+.imagenCamisa {
+	float: left;
+	padding: 20px;
+}
+
+.descripcionCamisa {
+	width: 70%;
+	text-align: center;
+	margin: auto;
+}
+
+.descripcionCamisa h2 {
+	font-family: laPhiesta;
+	color: white;
+	border-bottom: 2px solid #fff;
+	display: inline-block;
+	padding-bottom: 10px;
+}
+
+
+
+.descripcionCamisa p {
+	color: #fff;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	padding-top: 10px;
+	font-size: 16px;
+}
+
+.Pique {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	margin: auto;
+	width: 100%;
+}
+
+
+
+.imagenPique {
+	float: left;
+	padding: 20px;
+}
+
+.descripcionPique {
+	width: 70%;
+	text-align: center;
+	margin: auto;
+}
+
+
+
+.descripcionPique h2 {
+	color: white;
+	font-family: laPhiesta;
+	border-bottom: 2px solid #fff;
+	display: inline-block;
+	padding-bottom: 10px;
+}
+
+
+
+.descripcionPique p {
+	color: #fff;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	padding-top: 10px;
+	font-size: 16px;
+}
+
+.Qatar {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	margin: auto;
+	width: 100%;
+}
+
+
+
+.imagenQatar {
+	float: left;
+	padding: 20px;
+}
+
+.descripccionQatar {
+	width: 70%;
+	text-align: center;
+	margin: auto;
+}
+
+
+
+.descripccionQatar h2 {
+	color: white;
+	font-family: laPhiesta;
+	border-bottom: 2px solid #fff;
+	display: inline-block;
+	padding-bottom: 10px;
+}
+
+
+
+.descripccionQatar p {
+	color: #fff;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	padding-top: 10px;
+	font-size: 16px;
+}
+
+.Pique2 {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	margin: auto;
+	width: 100%;
+}
+
+
+
+.imagenPique2 {
+	float: left;
+	padding: 20px;
+}
+
+.descripccionPique2 {
+	width: 70%;
+	text-align: center;
+	margin: auto;
+}
+
+
+
+.descripccionPique2 h2 {
+	color: white;
+	font-family: laPhiesta;
+	border-bottom: 2px solid #fff;
+	display: inline-block;
+	padding-bottom: 10px;
+}
+
+
+
+.descripccionPique2 p {
+	color: #fff;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	padding-top: 10px;
+	font-size: 16px;
+}

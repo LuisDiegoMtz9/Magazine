@@ -1,0 +1,165 @@
+<html>
+
+<head>
+    <Title>Especta-culos</Title>
+    <link rel="stylesheet" href="Revista.css">
+    <script src="jscrips.js"></script>
+</head>
+
+<body style="background-color: black;">
+
+    <div class="prDiv" id="popUpEst">
+        <div class="ventEst">
+            <a onClick="cloPop()">
+                <div class="btnClosePop">x</div>
+            </a>
+            <h1>Proximos Estrenos</h1>
+            <div class="newLan">
+                <h2 id="tUno">Titulo 1</h2>
+                <p id="pUno">Texto proximo estreno</p>
+                <input type="button" value="Like" onClick="btnLike(1)">
+                <input type="button" value="Dislike" onClick="btnDislike(1)">
+                <label>Likes de este titulo -></label>
+                <label>L:</label>
+                <label id="lblLUno" class="lblNum">--</label>
+                <label>D:</label>
+                <label id="lblDUno" class="lblNum">--</label>
+            </div>
+            <div class="newLan">
+                <h2 id="tdos">Titulo 1</h2>
+                <p id="pdos">Texto proximo estreno</p>
+                <input type="button" value="Like" onClick="btnLike(2)">
+                <input type="button" value="Dislike" onClick="btnDislike(2)">
+                <label>Likes de este titulo -></label>
+                <label>L:</label>
+                <label id="lbldos" class="lblNum">--</label>
+                <label>D:</label>
+                <label id="lblddos" class="lblNum">--</label>
+            </div>
+            <div class="newLan">
+                <h2 id="ttres">Titulo 1</h2>
+                <p id="ptres">Texto proximo estreno</p>
+                <input type="button" value="Like" onClick="btnLike(3)">
+                <input type="button" value="Dislike" onClick="btnDislike(3)">
+                <label>Likes de este titulo -></label>
+                <label>L:</label>
+                <label id="lblltres" class="lblNum">--</label>
+                <label>D:</label>
+                <label id="lbldtres" class="lblNum">--</label>
+            </div>
+            <div class="newLan">
+                <h2 id="tcua">Titulo 1</h2>
+                <p id="pcua">Texto proximo estreno</p>
+                <input type="button" value="Like" onClick="btnLike(4)">
+                <input type="button" value="Dislike" onClick="btnDislike(4)">
+                <label>Likes de este titulo -></label>
+                <label>L:</label>
+                <label id="lbllcua" class="lblNum">--</label>
+                <label>D:</label>
+                <label id="lbldcua" class="lblNum">--</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="loginIni">
+        <a class="us">Usuario Loggeado:</a>
+        <a id="login">------</a>
+    </div>
+
+    <div class="btnIni">
+        <a id="opeSec" href="Login.html">Iniciar sesion</a>
+        <a id="cloSec" onClick="closeSec()">Cerrar Sesion</a>
+    </div>
+
+    <header>
+        <h1> Chompi-magatzine </h1>
+    </header>
+
+
+    <nav>
+        <a href="index.html">INICIO</a>
+        <a href="Juegos.html">JUEGOS</a>
+        <a href="Cocina.html">COCINA</a>
+        <a href="Deportes.html">DEPORTES</a>
+        <a href="Espectaculos.html">ESPECTACULOS</a>
+        <a onClick="opPop()">Nuevos Estrenos</a>
+    </nav>
+
+    <section class="main">
+
+        <section class="contenido">
+            <div class="Ingredientes">
+                <article>
+                    <div class="imgRevistaQ">
+                        <img src="revistaq.jpg" height="120px" width="120px">
+                    </div>
+                    <div class="descripccioningredientes">
+                        <h2>Revista Q</h2>
+                        <p>Entérate de lo que pasa en el mundo de los espectáculos
+                            y famosos, sociales, política y mucho más. Somos una revista
+                            con contenido exclusivo en México. <br> <a href="https://revistaq.mx/">!HECHA UN
+                                VISTAZO¡</a></p>
+                    </div>
+                </article>
+            </div>
+            <div class="Ingredientes">
+                <article>
+                    <div class="imgRevistaQ">
+                        <img src="tvNotas.jpeg" height="120px" width="120px">
+                    </div>
+                    <div class="descripccioningredientes">
+                        <h2 align="center">TVNotas ¡Irresistible!</h2>
+                        <p align="center">TVNotas revista de espectáculos más leído en todo México
+                            con noticias minuto a minuto, exclusivas, entretenimiento, horóscopos,
+                            consejos, recetas, etc <br><a href="https://www.tvnotas.com.mx">!HECHA UN VISTAZO¡</a> </p>
+                    </div>
+                </article>
+            </div>
+            <div class="Ingredientes">
+                <article>
+                    <div class="imgRevistaQ">
+                        <img src="hola.png" height="120px" width="120px">
+                    </div>
+                    <div class="descripccioningredientes">
+                        <h2 align="center">HOLA</h2>
+                        <p align="center">Número 1 en actualidad y tendencias de moda,
+                            belleza y estilo de vida. Noticias diarias sobre las estrellas de cine,
+                            la música, tendencias de moda, etc. <br> <a href="https://mx.hola.com/"> !HECHA UN
+                                VISTAZO¡</a> </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </section>
+
+    <div class="dias">
+        <aside>
+            <h1 style="color: white; font-family: laPhiesta; text-align: center; font-size: 50px;">Google Advertisment
+            </h1>
+            <img alt="" src="dklog.png" style="height: 65%">
+            <audio style="width: 100%; border-radius: 12px;" autoplay controls src="donkams.mp3"></audio>
+        </aside>
+    </div>
+
+
+    <footer
+        style="font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace'; padding-top: 20px;">
+        <div class="contenedor-footer">
+            <div class="contenedor-foo">
+                <h4>Contacto</h4>
+                <p>445-106-85-89</p>
+            </div>
+            <div class="contenedor-foo">
+                <h4>Email</h4>
+                <p>s19120131@alumnos.itsur.edu.mx</p>
+            </div>
+            <div class="contenedor-foo">
+                <h4>Dirección</h4>
+                <p>Av. Tecnologico</p>
+            </div>
+        </div>
+        <h2 style="font-family: laPhiesta; letter-spacing: 5px; font-size: 50px;">chompi-magatzine | !DESCUBRELO!</h2>
+    </footer>
+</body>
+
+</html>
