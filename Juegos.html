@@ -1,75 +1,87 @@
 <html>
 
 <head>
-    <title>Chompi-Magatzine</title>
+    <title>Juegos</title>
     <link rel="stylesheet" href="Revista.css">
     <script src="jscrips.js"></script>
 </head>
 
 <body style="background-color: black;">
+
     <div class="prDiv" id="popUpEst">
-		<div class="ventEst">
-			<a onClick="cloPop()">
-				<div class="btnClosePop">x</div>
-			</a>
-			<h1>Próximos Estrenos</h1>
-			<div class="newLan">
-				<h2 id="tUno">Titulo 1</h2>
-				<p id="pUno">Texto próximo estreno</p>
-				<input type="button" value="Like" onClick="btnLike(1)">
-				<input type="button" value="Dislike" onClick="btnDislike(1)">
-				<label>Likes de este titulo -></label>
-				<label>L:</label>
-				<label id="lblLUno" class="lblNum">--</label>
-				<label>D:</label>
-				<label id="lblDUno" class="lblNum">--</label>
-			</div>
-			<div class="newLan">
-				<h2 id="tdos">Titulo 1</h2>
-				<p id="pdos">Texto próximo estreno</p>
-				<input type="button" value="Like" onClick="btnLike(2)">
-				<input type="button" value="Dislike" onClick="btnDislike(2)">
-				<label>Likes de este titulo -></label>
-				<label>L:</label>
-				<label id="lbldos" class="lblNum">--</label>
-				<label>D:</label>
-				<label id="lblddos" class="lblNum">--</label>
-			</div>
-			<div class="newLan">
-				<h2 id="ttres">Titulo 1</h2>
-				<p id="ptres">Texto próximo estreno</p>
-				<input type="button" value="Like" onClick="btnLike(3)">
-				<input type="button" value="Dislike" onClick="btnDislike(3)">
-				<label>Likes de este titulo -></label>
-				<label>L:</label>
-				<label id="lblltres" class="lblNum">--</label>
-				<label>D:</label>
-				<label id="lbldtres" class="lblNum">--</label>
-			</div>
-			<div class="newLan">
-				<h2 id="tcua">Titulo 1</h2>
-				<p id="pcua">Texto próximo estreno</p>
-				<input type="button" value="Like" onClick="btnLike(4)">
-				<input type="button" value="Dislike" onClick="btnDislike(4)">
-				<label>Likes de este titulo -></label>
-				<label>L:</label>
-				<label id="lbllcua" class="lblNum">--</label>
-				<label>D:</label>
-				<label id="lbldcua" class="lblNum">--</label>
-			</div>
-		</div>
-	</div>
+        <div class="ventEst">
+            <a onClick="cloPop()">
+                <div class="btnClosePop">x</div>
+            </a>
+            <h1>Proximos Estrenos</h1>
+            <div class="newLan">
+                <h2 id="tUno">Titulo 1</h2>
+                <p id="pUno">Texto proximo estreno</p>
+                <input type="button" value="Like" onClick="btnLike(1)">
+                <input type="button" value="Dislike" onClick="btnDislike(1)">
+                <label>Likes de este titulo -></label>
+                <label>L:</label>
+                <label id="lblLUno" class="lblNum">--</label>
+                <label>D:</label>
+                <label id="lblDUno" class="lblNum">--</label>
+            </div>
+            <div class="newLan">
+                <h2 id="tdos">Titulo 1</h2>
+                <p id="pdos">Texto proximo estreno</p>
+                <input type="button" value="Like" onClick="btnLike(2)">
+                <input type="button" value="Dislike" onClick="btnDislike(2)">
+                <label>Likes de este titulo -></label>
+                <label>L:</label>
+                <label id="lbldos" class="lblNum">--</label>
+                <label>D:</label>
+                <label id="lblddos" class="lblNum">--</label>
+            </div>
+            <div class="newLan">
+                <h2 id="ttres">Titulo 1</h2>
+                <p id="ptres">Texto proximo estreno</p>
+                <input type="button" value="Like" onClick="btnLike(3)">
+                <input type="button" value="Dislike" onClick="btnDislike(3)">
+                <label>Likes de este titulo -></label>
+                <label>L:</label>
+                <label id="lblltres" class="lblNum">--</label>
+                <label>D:</label>
+                <label id="lbldtres" class="lblNum">--</label>
+            </div>
+            <div class="newLan">
+                <h2 id="tcua">Titulo 1</h2>
+                <p id="pcua">Texto proximo estreno</p>
+                <input type="button" value="Like" onClick="btnLike(4)">
+                <input type="button" value="Dislike" onClick="btnDislike(4)">
+                <label>Likes de este titulo -></label>
+                <label>L:</label>
+                <label id="lbllcua" class="lblNum">--</label>
+                <label>D:</label>
+                <label id="lbldcua" class="lblNum">--</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="loginIni">
+        <a class="us">Usuario Loggeado:</a>
+        <a id="login">------</a>
+    </div>
+
+    <div class="btnIni">
+        <a id="opeSec" href="Login.html">Iniciar sesion</a>
+        <a id="cloSec" onClick="closeSec()">Cerrar Sesion</a>
+    </div>
 
     <header>
-        <h1> Chompi-Magatzine </h1>
+        <h1> Chompi-magatzine </h1>
     </header>
+
 
     <nav>
         <a href="index.html">INICIO</a>
         <a href="Juegos.html">JUEGOS</a>
         <a href="Cocina.html">COCINA</a>
         <a href="Deportes.html">DEPORTES</a>
-        <a href="Espectaculos.html">ESPECTÁCULOS</a>
+        <a href="Espectaculos.html">ESPECTACULOS</a>
         <a onClick="opPop()">Nuevos Estrenos</a>
     </nav>
 
@@ -96,23 +108,9 @@
 
     <aside class="asidejuegos">
     </aside>
-
-    <footer>
-        <div class="contenedor-footer">
-            <div class="contenedor-foo">
-                <h4>Contacto</h4>
-                <p>445-114-13-05</p>
-            </div>
-            <div class="contenedor-foo">
-                <h4>Email</h4>
-                <p>s19120130@alumnos.itsur.edu.mx</p>
-            </div>
-            <div class="contenedor-foo">
-                <h4>Dirección</h4>
-                <p>Av. Tecnologico</p>
-            </div>
-        </div>
-        <h2>HECHA UN VISTAZO | ¡DESCUBRELO!</h2>
+    <footer
+        style="font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace'; padding-top: 20px;">
+        <h2 style="font-family: laPhiesta; letter-spacing: 5px; font-size: 50px;">chompi-magatzine | !DESCUBRELO!</h2>
     </footer>
 </body>
 
